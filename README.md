@@ -3,7 +3,7 @@
 Armada-Z
 
 ## `Brief Description`
-Spaceship shooting game with one player ship and two enemy ships. The game is playable, but is not complete.
+Spaceship shooting game with one player ship and multiple enemy ships. The game is playable, but is not complete.
 
 Keys for controlling the player ship:
 
@@ -25,15 +25,15 @@ By Bai Jaitrong
   * Canvas
   * CSS
   * JavaScrip
-  * Webpack
+  * Node.js 18.7.0
   * Node Package manager (npm) 8.15.0
   * package.json
-  * webpack 4.46.0
-  * webpack-cli 3.3.12
-  * style-loader 1.3.0
+  * webpack 5.86.0
+  * webpack-cli 5.1.4
+  * style-loader 3.3.3
   * htmlWebpackPlugin 4.5.2
   * cleanWebpackPlugin 3.0.0
-  * webpack Developement Server 3.11.3
+  * webpack Development Server 4.15.1
   * ESLint 8.18.0
   * eslint webpack plugin 2.7.0
 
@@ -196,7 +196,7 @@ Project 9: Final endless runner game with all the features
  
 ## Setup/Installation Requirements
 
-  1. Clone the repository to your desktop or a subdirectory in your desktop and using this link **https://github.com/bjaitrong22/armada-z.git**
+  1. Clone the repository to your desktop or a subdirectory in your desktop and using this link **https://github.com/bjaitrong22/armada-z-webpack5.git**
 
     * Be careful not to clone the repository inside a local repository. Otherwise, you will have a    nested git respository.
 
@@ -214,6 +214,13 @@ Project 9: Final endless runner game with all the features
   * chrome limits the number of media player per page so you may get the following message:
   <mark>"Blocked attempt to create a WebMediaPlayer as there are too many WebMediaPlayers already in existence"<mark>.
   * The other known issue is the "Uncaught(in promise) DOMException:play() failed because the user didn't interac witht the document first.
+  * If you are using a more current version of Node.js such as node.js 18.16.0 LTS and 20.3.0 Current, you will get the following error because of webpack4:
+
+  "ERR_OSSL_EVP_UNSUPPORTED Error in Node.js"
+
+  Below is the link to the updated code using webpack5 that should fix the issue:
+  
+  https://github.com/bjaitrong22/armada-z-webpack5.git
 
 # License
  * Portfolio is licensed under the terms of GNU AFFERO GENERAL PUBLIC LICENS Version 3, 19 November 2007 ( change if you are using a different license)
